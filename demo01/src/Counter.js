@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, Component } from 'react'
 
 
 function Counter() {
@@ -11,4 +11,13 @@ function Counter() {
   )
 }
 
-export default Counter
+// export default Counter
+
+class Example extends Component {
+    render() {
+      return (
+        <p>aaa</p>
+      )
+    }
+}
+export default Example
